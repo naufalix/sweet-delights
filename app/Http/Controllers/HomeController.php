@@ -10,9 +10,25 @@ class HomeController extends Controller
     
     public function home(){
         return view('home',[
-            "title" => "Sweet Delights | Toko Kue",
-            // "crafts" => Craft::all(),
-            // "posts" => Post::limit(3)->orderBy("id","DESC")->get(),
+            "title" => "Sweet Delights | Home",
+        ]);
+    }
+
+    public function menu(){
+        return view('menu',[
+            "title" => "Sweet Delights | Menu",
+        ]);
+    }
+
+    public function reservation(){
+        return view('reservation',[
+            "title" => "Sweet Delights | Reservasi",
+        ]);
+    }
+
+    public function testimonials(){
+        return view('testimonials',[
+            "title" => "Sweet Delights | Testimoni",
         ]);
     }
 

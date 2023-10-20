@@ -11,3 +11,7 @@
   <link rel="stylesheet" href="assets/css/templatemo-klassy-cafe.css">
   <link rel="stylesheet" href="assets/css/owl-carousel.css">
   <link rel="stylesheet" href="assets/css/lightbox.css">
+  <style>
+    .of-cover{object-fit: cover}
+    .ar-11{aspect-ratio:1/1}
+  </style>

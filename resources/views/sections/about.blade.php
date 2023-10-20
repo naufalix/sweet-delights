@@ -4,19 +4,19 @@
           <div class="col-lg-6 col-md-6 col-xs-12">
               <div class="left-text-content">
                   <div class="section-heading">
-                      <h6>About Us</h6>
-                      <h2>We Leave A Delicious Memory For You</h2>
+                      <h6>Tentang kami</h6>
+                      <h2>Selamat datang di Sweet Delights</h2>
                   </div>
-                  <p>Klassy Cafe is one of the best <a href="https://templatemo.com/tag/restaurant" target="_blank" rel="sponsored">restaurant HTML templates</a> with Bootstrap v4.5.2 CSS framework. You can download and feel free to use this website template layout for your restaurant business. You are allowed to use this template for commercial purposes. <br><br>You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please contact us for more information.</p>
-                  <div class="row">
+                  <p>Kami adalah toko kue dan minuman yang berkomitmen untuk memberikan pengalaman manis. Setiap kue yang kami buat adalah unik, dengan perpaduan rasa yang luar biasa dan sentuhan kreatif. Kami percaya bahwa kue dan minuman bisa menjadi sarana untuk merayakan momen spesial dalam hidup. Dari ulang tahun hingga pernikahan, atau bahkan sekadar menjadikan hari Anda lebih manis, kami hadir untuk memberikan pilihan terbaik. Semua produk kami dibuat dengan cinta, menggunakan bahan-bahan terbaik dan resep-resep tradisional yang telah kami wariskan dari generasi ke generasi.</p>
+                  <div class="row d-none">
                       <div class="col-4">
-                          <img src="assets/images/about-thumb-01.jpg" alt="">
+                          <img class="rounded" src="/assets/images/menu-item-01.jpg" alt="" style="aspect-ratio:1/1; object-fit:cover">
                       </div>
                       <div class="col-4">
-                          <img src="assets/images/about-thumb-02.jpg" alt="">
+                          <img class="rounded" src="/assets/images/menu-item-02.jpg" alt="" style="aspect-ratio:1/1; object-fit:cover">
                       </div>
                       <div class="col-4">
-                          <img src="assets/images/about-thumb-03.jpg" alt="">
+                          <img class="rounded" src="/assets/images/menu-item-03.jpg" alt="" style="aspect-ratio:1/1; object-fit:cover">
                       </div>
                   </div>
               </div>
@@ -24,8 +24,8 @@
           <div class="col-lg-6 col-md-6 col-xs-12">
               <div class="right-content">
                   <div class="thumb">
-                      <a rel="nofollow" href="http://youtube.com"><i class="fa fa-play"></i></a>
-                      <img src="assets/images/about-video-bg.jpg" alt="">
+                      <a class="d-none" rel="nofollow" href="http://youtube.com"><i class="fa fa-play"></i></a>
+                      <img src="/assets/images/slide-03.jpg" alt="">
                   </div>
               </div>
           </div>

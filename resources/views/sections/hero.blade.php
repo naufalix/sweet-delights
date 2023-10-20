@@ -4,10 +4,10 @@
           <div class="col-lg-4">
               <div class="left-content">
                   <div class="inner-content">
-                      <h4>KlassyCafe</h4>
-                      <h6>THE BEST EXPERIENCE</h6>
+                      <h4>Sweet Delight</h4>
+                      <h6>Kenikmatan di Setiap Gigitan</h6>
                       <div class="main-white-button scroll-to-section">
-                          <a href="#reservation">Make A Reservation</a>
+                          <a href="#reservation">Pesan sekarang</a>
                       </div>
                   </div>
               </div>

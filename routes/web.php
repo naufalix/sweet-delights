@@ -15,3 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'home']);
+Route::get('/menu', [HomeController::class, 'menu']);
+Route::get('/reservasi', [HomeController::class, 'reservation']);
+Route::get('/testimoni', [HomeController::class, 'testimonials']);

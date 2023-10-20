@@ -4,23 +4,22 @@
           <div class="col-lg-6 align-self-center">
               <div class="left-text-content">
                   <div class="section-heading">
-                      <h6>Contact Us</h6>
-                      <h2>Here You Can Make A Reservation Or Just walkin to our cafe</h2>
+                      <h6>Hubungi kami</h6>
+                      <h2>Anda dapat melakukan reservasi atau datang langsung ke toko kami</h2>
                   </div>
-                  <p>Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a eleifend riqsie, namei sollicitudin urna diam, sed commodo purus porta ut.</p>
                   <div class="row">
                       <div class="col-lg-6">
                           <div class="phone">
-                              <i class="fa fa-phone"></i>
-                              <h4>Phone Numbers</h4>
+                              <i class="fa fa-whatsapp"></i>
+                              <h4>Whatsapp</h4>
                               <span><a href="#">080-090-0990</a><br><a href="#">080-090-0880</a></span>
                           </div>
                       </div>
                       <div class="col-lg-6">
                           <div class="message">
-                              <i class="fa fa-envelope"></i>
-                              <h4>Emails</h4>
-                              <span><a href="#">hello@company.com</a><br><a href="#">info@company.com</a></span>
+                              <i class="fa fa-map-marker"></i>
+                              <h4>Alamat</h4>
+                              <span>Jl. Ir. H. Juanda No.15 <br> Sidodadi, Kota Samarinda</span>
                           </div>
                       </div>
                   </div>
@@ -31,27 +30,27 @@
                   <form id="contact" action="" method="post">
                     <div class="row">
                       <div class="col-lg-12">
-                          <h4>Table Reservation</h4>
+                          <h4>Form Reservasi</h4>
                       </div>
                       <div class="col-lg-6 col-sm-12">
                         <fieldset>
-                          <input name="name" type="text" id="name" placeholder="Your Name*" required="">
+                          <input name="name" type="text" id="name" placeholder="Nama anda" required="">
                         </fieldset>
                       </div>
                       <div class="col-lg-6 col-sm-12">
                         <fieldset>
-                        <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="">
+                        <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Alamat email" required="">
                       </fieldset>
                       </div>
                       <div class="col-lg-6 col-sm-12">
                         <fieldset>
-                          <input name="phone" type="text" id="phone" placeholder="Phone Number*" required="">
+                          <input name="phone" type="text" id="phone" placeholder="Nomor whatsapp" required="">
                         </fieldset>
                       </div>
                       <div class="col-md-6 col-sm-12">
                         <fieldset>
                           <select value="number-guests" name="number-guests" id="number-guests">
-                              <option value="number-guests">Number Of Guests</option>
+                              <option value="number-guests">Jumlah pengunjung</option>
                               <option name="1" id="1">1</option>
                               <option name="2" id="2">2</option>
                               <option name="3" id="3">3</option>
@@ -80,21 +79,21 @@
                       <div class="col-md-6 col-sm-12">
                         <fieldset>
                           <select value="time" name="time" id="time">
-                              <option value="time">Time</option>
-                              <option name="Breakfast" id="Breakfast">Breakfast</option>
-                              <option name="Lunch" id="Lunch">Lunch</option>
-                              <option name="Dinner" id="Dinner">Dinner</option>
+                              <option value="time">Waktu</option>
+                              <option name="Breakfast" id="Breakfast">Pagi</option>
+                              <option name="Lunch" id="Lunch">Siang</option>
+                              <option name="Dinner" id="Dinner">Malam</option>
                           </select>
                         </fieldset>
                       </div>
                       <div class="col-lg-12">
                         <fieldset>
-                          <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                          <textarea name="message" rows="6" id="message" placeholder="Catatan" required=""></textarea>
                         </fieldset>
                       </div>
                       <div class="col-lg-12">
                         <fieldset>
-                          <button type="submit" id="form-submit" class="main-button-icon">Make A Reservation</button>
+                          <button type="submit" id="form-submit" class="main-button-icon">Buat reservasi</button>
                         </fieldset>
                       </div>
                     </div>

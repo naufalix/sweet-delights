@@ -13,14 +13,15 @@
           </div>
           <div class="col-lg-4">
               <div class="logo">
-                  <a href="index.html"><img src="assets/images/white-logo.png" alt=""></a>
+                  <a href="/">
+                    <img src="/assets/images/logo.png" style="height: 50px">
+                    <span class="text-light" style="font-family: 'Dancing Script', cursive;">Sweet Delights</span>
+                </a>
               </div>
           </div>
           <div class="col-lg-4 col-xs-12">
               <div class="left-text-content">
-                  <p>© Copyright Klassy Cafe Co.
-                  
-                  <br>Design: TemplateMo</p>
+                  <p>© Copyright Sweet Delights<br>Design: TemplateMo</p>
               </div>
           </div>
       </div>

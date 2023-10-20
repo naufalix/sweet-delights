@@ -1,90 +1,44 @@
 <section class="section" id="menu">
-  <div class="container">
+    <div class="container">
       <div class="row">
-          <div class="col-lg-4">
-              <div class="section-heading">
-                  <h6>Our Menu</h6>
-                  <h2>Our selection of cakes with quality taste</h2>
-              </div>
+        <div class="col-lg-8 ">
+          <div class="section-heading">
+            <h6>Menu Kami</h6>
+            <h2>Kue pilihan kami dengan rasa berkualitas</h2>
           </div>
+        </div>
       </div>
-  </div>
-  <div class="menu-item-carousel">
+    </div>
+    <div class="menu-item-carousel">
       <div class="col-lg-12">
-          <div class="owl-menu-item owl-carousel">
-              <div class="item">
-                  <div class='card card1'>
-                      <div class="price"><h6>$14</h6></div>
-                      <div class='info'>
-                        <h1 class='title'>Chocolate Cake</h1>
-                        <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
-                        <div class="main-text-button">
-                            <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
-                        </div>
-                      </div>
-                  </div>
+        <div class="owl-menu-item owl-carousel">
+          @php
+            $cakes = [
+							["id" => 1, "name" => "Kue Coklat", 					"price" => "25K", "description" => "Kue coklat lezat dengan lapisan ganache coklat."],
+							["id" => 2, "name" => "Pancake Manis", 				"price" => "15K", "description" => "Pancake manis dengan sirup maple dan buah-buahan segar."],
+							["id" => 3, "name" => "Roti Manis Panjang", 	"price" => "12K", "description" => "Roti manis panjang dengan taburan gula halus."],
+							["id" => 4, "name" => "Blueberry CheeseCake", "price" => "35K", "description" => "Cheesecake lembut dengan saus blueberry segar."],
+							["id" => 5, "name" => "Cup Cake Manis", 			"price" => "10K", "description" => "Cupcake manis dengan berbagai toping."],
+							["id" => 6, "name" => "Kue Manis", 						"price" => "18K", "description" => "Kue manis dengan berbagai varian rasa."]
+						];
+          @endphp
+					@foreach ($cakes as $c)	
+          <div class="item">
+						<div class='card' style="background-image: url(/assets/images/menu-item-0{{$c['id']}}.jpg);">
+							<div class="price">
+								<h6>{{$c['price']}}</h6>
               </div>
-              <div class="item">
-                  <div class='card card2'>
-                      <div class="price"><h6>$22</h6></div>
-                      <div class='info'>
-                        <h1 class='title'>Klassy Pancake</h1>
-                        <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
-                        <div class="main-text-button">
-                            <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
-                        </div>
-                      </div>
-                  </div>
+              <div class='info'>
+								<h1 class='title'>{{$c['name']}}</h1>
+                <p class='description'>{{$c['description']}}</p>
+                <div class="main-text-button">
+									<div class="scroll-to-section"><a href="#reservation"> <i class="fa fa-angle-down d-none"></i></a></div>
+                </div>
               </div>
-              <div class="item">
-                  <div class='card card3'>
-                      <div class="price"><h6>$18</h6></div>
-                      <div class='info'>
-                        <h1 class='title'>Tall Klassy Bread</h1>
-                        <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
-                        <div class="main-text-button">
-                            <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="item">
-                  <div class='card card4'>
-                      <div class="price"><h6>$10</h6></div>
-                      <div class='info'>
-                        <h1 class='title'>Blueberry CheeseCake</h1>
-                        <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
-                        <div class="main-text-button">
-                            <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="item">
-                  <div class='card card5'>
-                      <div class="price"><h6>$8.50</h6></div>
-                      <div class='info'>
-                        <h1 class='title'>Klassy Cup Cake</h1>
-                        <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
-                        <div class="main-text-button">
-                            <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="item">
-                  <div class='card card3'>
-                      <div class="price"><h6>$7.25</h6></div>
-                      <div class='info'>
-                        <h1 class='title'>Klassic Cake</h1>
-                        <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
-                        <div class="main-text-button">
-                            <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
-                        </div>
-                      </div>
-                  </div>
-              </div>
+            </div>
           </div>
+					@endforeach
+        </div>
       </div>
-  </div>
-</section>
+    </div>
+  </section>
