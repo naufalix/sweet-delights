@@ -14,6 +14,12 @@ class HomeController extends Controller
         ]);
     }
 
+    public function about_us(){
+        return view('about-us',[
+            "title" => "Sweet Delights | Tentang Kami",
+        ]);
+    }
+
     public function menu(){
         return view('menu',[
             "title" => "Sweet Delights | Menu",
