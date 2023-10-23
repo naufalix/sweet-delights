@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'home']);
+Route::get('/kontak', [HomeController::class, 'contact']);
 Route::get('/menu', [HomeController::class, 'menu']);
 Route::get('/reservasi', [HomeController::class, 'reservation']);
 Route::get('/tentang-kami', [HomeController::class, 'about_us']);

@@ -16,6 +16,7 @@
                       <li class="scroll-to-section"><a href="/menu">Menu</a></li>
                       <li class="scroll-to-section"><a href="/testimoni">Testimoni</a></li> 
                       <li class="scroll-to-section"><a href="/reservasi">Reservasi</a></li> 
+                      <li class="scroll-to-section"><a href="/kontak">Kontak</a></li> 
                   </ul>        
                   <a class='menu-trigger'>
                       <span>Menu</span>

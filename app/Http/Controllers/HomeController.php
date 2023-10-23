@@ -20,6 +20,12 @@ class HomeController extends Controller
         ]);
     }
 
+    public function contact(){
+        return view('contact',[
+            "title" => "Sweet Delights | Kontak",
+        ]);
+    }
+
     public function menu(){
         return view('menu',[
             "title" => "Sweet Delights | Menu",

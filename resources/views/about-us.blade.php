@@ -1,5 +1,5 @@
 @extends('layouts.index')
 
 @section('content')
-  @include('sections.about')
+  @include('sections.biodata')
 @endsection
